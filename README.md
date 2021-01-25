@@ -45,7 +45,7 @@ R statistical tool.
 
 # Gene distribution heat map 
 
-![distributionplot](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-4.PNG)
+![distributionplot](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-1.PNG)
 
 
 # Removing  ​ Neuroendocrine​ tumors.
@@ -58,7 +58,7 @@ Data has two groups  Exocrine Neuroendocrine :  2 different clusters of data poi
   The two components seperation can be easily visualized . Seperated Groups of samples from Neuroendocrine and Exocrine.
 # Visualization Plot:
 
-![plot](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-1.PNG)
+![plot](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-2.PNG)
 
 
 
@@ -74,6 +74,58 @@ Data has two groups  Exocrine Neuroendocrine :  2 different clusters of data poi
 Interferons (IFNs) are a group of signaling proteins made and released by host cells in response to the presence of several pathogens, such as viruses, bacteria, parasites, and also tumor cells. Type I interferons (IFNs) are a large subgroup of interferon proteins that help regulate the activity of the immune system. The genes responsible for type 1 Interferons is called ​ Type 1 IFN signature and consists of a set of 25 genes in homo sapiens and plotting the gene expression distribution as below .
 
 
-### Image of the Type 1 IFN genes (25 genes) --> it's distribution across samples of Exocrine.
+### Image of the Type 1 IFN genes and it's distribution across samples of Exocrine.
 
 ![capture 4](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-4.PNG)
+
+
+
+
+
+
+## Image of the Type 1 IFN genes and it's distribution across samples of Exocrine is visualized above from which the analysis include
+
+# distribution of gene across different samples is like it has most values near 9 and 12, 
+#  colour of heatmap observed : near 9 to 12 and 
+# The blue region with less frequency values : near 4 to 5
+
+
+from GSVA import gsva, gmt_to_dataframe
+
+# Some extras to look at the high dimensional data
+from plotnine import *
+from sklearn.manifold import TSNE
+ifn1.to_csv('ifn1.csv')
+!cp ifn1.csv 
+
+'cp' is not recognized as an internal or external command,
+operable program or batch file.
+
+genesets_df = gmt_to_dataframe("C:\\Users\\Dell\\geneset.gmt")
+genesets_df.head()
+
+name	description	member
+0	REACTOME_INTERFERON_GAMMA_SIGNALING	> Interferon gamma signaling	B2M
+1	REACTOME_INTERFERON_GAMMA_SIGNALING	> Interferon gamma signaling	CAMK2A
+2	REACTOME_INTERFERON_GAMMA_SIGNALING	> Interferon gamma signaling	CAMK2B
+3	REACTOME_INTERFERON_GAMMA_SIGNALING	> Interferon gamma signaling	CAMK2D
+4	REACTOME_INTERFERON_GAMMA_SIGNALING	> Interferon gamma signaling	CAMK2G
+expression_df = pd.read_csv('ifn1.csv',index_col=0)
+expression_df.iloc[0:5,0:5]
+aab1-Primary solid Tumor	aab4-Primary solid Tumor	aab6-Primary solid Tumor	aab8-Primary solid Tumor	aab9-Primary solid Tumor
+rid					
+SLC35E2	7.45	8.1	7.2	8.0	7.65
+A1BG	6.40	5.8	6.4	5.8	6.70
+A2LD1	7.50	6.8	7.3	7.5	7.40
+A2M	14.30	14.0	13.1	13.8	14.60
+A4GALT	10.60	10.2	10.1	8.6	10.10
+ 
+XV = TSNE(n_components=2).\
+fit_transform(expression_df.T)
+df = pd.DataFrame(XV).rename(columns={0:'x',1:'y'})
+(ggplot(df,aes(x='x',y='y'))
++ geom_point(alpha=0.2)
+)
+
+#Plot(GSVA)
+![capt](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-5.PNG)
