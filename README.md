@@ -22,9 +22,7 @@ R statistical tool.
 
 ## Context 
 
-Pancreatic Adenocarcinoma (PAAD) is the third most common cause of death from cancer, with an overall 5-year survival rate of less than 5% 
-Ribonucleic acid (​ RNA​ ) is a polymeric molecule essential in various biological roles in coding, decoding, regulation and expression of genes.
-# RNA-Seq (RNA sequencing), is a sequencing technique to detect the quantity of RNA in a biological sample at a given moment. Here we have a dataset of normalized RNA Sequencing reads for pancreatic cancer tumors​ . The measurement consists of ~20,000 genes for 185 pancreatic cancer tumors. The file format is ​ GCT , a tab-delimited file used for sharing gene expression data and metadata (details for each sample) for samples.
+Pancreatic Adenocarcinoma (PAAD) is the third most common cause of death from cancer, with an overall 5-year survival rate of less than 5% .RNA-Seq (RNA sequencing), is a sequencing technique to detect the quantity of RNA in a biological sample at a given moment. Here we have a dataset of normalized RNA Sequencing reads for pancreatic cancer tumors​ . The measurement consists of ~20,000 genes for 185 pancreatic cancer tumors. The file format is ​ GCT , a tab-delimited file used for sharing gene expression data and metadata (details for each sample) for samples.
 
 ## Data Description 
 
@@ -56,9 +54,7 @@ PCA for analysis (Dimensionality reduction )
 
 Data has two groups  Exocrine Neuroendocrine :  2 different clusters of data points.
 
-Here I used the 'histological_type_other' data to seperate the two type of cancers.
-
-### Image of PCA plot:
+###  PCA plot:
 ![pca_plot](https://user-images.githubusercontent.com/36000962/75601309-d1114c00-5adf-11ea-90bc-9e5019b39346.png)
 
 
