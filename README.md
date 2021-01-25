@@ -83,11 +83,10 @@ Interferons (IFNs) are a group of signaling proteins made and released by host c
 
 
 
-## Image of the Type 1 IFN genes and it's distribution across samples of Exocrine is visualized above from which the analysis include
-
-# distribution of gene across different samples is like it has most values near 9 and 12, 
-#  colour of heatmap observed : near 9 to 12 and 
-# The blue region with less frequency values : near 4 to 5
+ Image of the Type 1 IFN genes and it's distribution across samples of Exocrine is visualized above from which the analysis include
+ distribution of gene across different samples is like it has most values near 9 and 12, 
+ colour of heatmap observed : near 9 to 12 and 
+ The blue region with less frequency values : near 4 to 5
 
 
 from GSVA import gsva, gmt_to_dataframe
@@ -128,4 +127,5 @@ df = pd.DataFrame(XV).rename(columns={0:'x',1:'y'})
 )
 
 #Plot(GSVA)
-![capt](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-5.PNG)
+
+![](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-5.PNG)
