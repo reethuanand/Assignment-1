@@ -32,7 +32,7 @@ R statistical tool.
    
 # Phantasus tool Visualization has been used as open source online tool (Heat Map).
 
-![data_gene](https://user-images.githubusercontent.com/36000962/75327868-17c63280-58a3-11ea-87b1-2d9e1b5ddfcf.png)
+![data_gene](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-3.PNG)
 
 
 # gene expression distribution for all samples :
@@ -45,7 +45,7 @@ R statistical tool.
 
 # Gene distribution heat map 
 
-![distributionplot](https://user-images.githubusercontent.com/36000962/75326736-2875a900-58a1-11ea-9354-4d566826fdda.png)
+![distributionplot](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-4.PNG)
 
 
 # Removing  ​ Neuroendocrine​ tumors.
@@ -58,7 +58,7 @@ Data has two groups  Exocrine Neuroendocrine :  2 different clusters of data poi
   The two components seperation can be easily visualized . Seperated Groups of samples from Neuroendocrine and Exocrine.
 # Visualization Plot:
 
-![plot](https://user-images.githubusercontent.com/36000962/75601309-d1114c00-5adf-11ea-90bc-9e5019b39346.png)
+![plot](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-1.PNG)
 
 
 
@@ -76,4 +76,4 @@ Interferons (IFNs) are a group of signaling proteins made and released by host c
 
 ### Image of the Type 1 IFN genes (25 genes) --> it's distribution across samples of Exocrine.
 
-![capture 4](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-1.PNG)
+![capture 4](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-4.PNG)
