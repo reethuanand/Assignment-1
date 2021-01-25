@@ -76,4 +76,4 @@ Interferons (IFNs) are a group of signaling proteins made and released by host c
 
 ### Image of the Type 1 IFN genes (25 genes) --> it's distribution across samples of Exocrine.
 
-![capture 4]( https://drive.google.com/file/d/1wFY_IYZhyfpjeifLo0Y8ga6SCaICKLA1/view?usp=sharing)
+![capture 4](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-1.PNG)
