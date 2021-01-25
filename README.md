@@ -6,7 +6,7 @@ Sequencing reads for pancreatic cancer tumors.
 
 Data Description : 
 The measurement consists of ~20,000 genesfor 185 pancreatic cancer tumors
-This means in our data, the row metadata is not present.
+ row metadata is only present and column metadata is not present 
 
 
 AIM : 
