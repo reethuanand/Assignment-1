@@ -15,8 +15,8 @@ Data_frame : It has 18465 rows (Gene ID) and 183 columns (Sample Name/ID)
 
 Stages inculde:
 
-Data cleaning 
-Identify only the ​ Exocrine​ (adenocarcinoma) tumors and remove ​ Neuroendocrine​ tumors.
-Using PCA for Exploratory data analysis 
-Acknowledge the effect of Interferons in Pancreatic Adenocarcinoma
+Data cleaning ,
+Identify only the ​ Exocrine​ (adenocarcinoma) tumors and remove ​ Neuroendocrine​ tumors ,
+Using PCA for Exploratory data analysis ,
+Acknowledge the effect of Interferons in Pancreatic Adenocarcinoma.
 
