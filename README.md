@@ -45,7 +45,7 @@ R statistical tool.
 
 # Gene distribution heat map 
 
-![gene_distribution](https://user-images.githubusercontent.com/36000962/75326736-2875a900-58a1-11ea-9354-4d566826fdda.png)
+![distributionplot](https://user-images.githubusercontent.com/36000962/75326736-2875a900-58a1-11ea-9354-4d566826fdda.png)
 
 
 # Removing  ​ Neuroendocrine​ tumors.
@@ -58,7 +58,7 @@ Data has two groups  Exocrine Neuroendocrine :  2 different clusters of data poi
   The two components seperation can be easily visualized . Seperated Groups of samples from Neuroendocrine and Exocrine.
 # Visualization Plot:
 
-![pca_plot](https://user-images.githubusercontent.com/36000962/75601309-d1114c00-5adf-11ea-90bc-9e5019b39346.png)
+![plot](https://user-images.githubusercontent.com/36000962/75601309-d1114c00-5adf-11ea-90bc-9e5019b39346.png)
 
 
 
@@ -76,4 +76,4 @@ Interferons (IFNs) are a group of signaling proteins made and released by host c
 
 ### Image of the Type 1 IFN genes (25 genes) --> it's distribution across samples of Exocrine.
 
-![gene_25]( https://drive.google.com/file/d/1wFY_IYZhyfpjeifLo0Y8ga6SCaICKLA1/view?usp=sharing)
+![capture 4]( https://drive.google.com/file/d/1wFY_IYZhyfpjeifLo0Y8ga6SCaICKLA1/view?usp=sharing)
