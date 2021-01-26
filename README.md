@@ -88,10 +88,9 @@ Interferons (IFNs) are a group of signaling proteins made and released by host c
  colour of heatmap observed : near 9 to 12 and 
  The blue region with less frequency values : near 4 to 5
 
+Some extras to look at the high dimensional data
 
-from GSVA import gsva, gmt_to_dataframe
-
-# Some extras to look at the high dimensional data
+from GSVA import gsva, gmt_to_dataframe                              
 from plotnine import *
 from sklearn.manifold import TSNE
 ifn1.to_csv('ifn1.csv')
@@ -126,6 +125,6 @@ df = pd.DataFrame(XV).rename(columns={0:'x',1:'y'})
 + geom_point(alpha=0.2)
 )
 
-#Plot(GSVA)
+# Plot(GSVA)
 
 ![](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-5.PNG)
