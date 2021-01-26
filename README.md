@@ -1,7 +1,8 @@
 
 # Aim:
 To analyze the differentially expressed genes from RNA-Seq data.
-and Use of Machine Learning Algorithms like PCA (Principal Component Analysis) and use of GSVA (Gene Set Variation Analysis) algorithm in Docker to get specific insights
+and Use of Machine Learning Algorithms like PCA (Principal Component Analysis) and 
+use of GSVA (Gene Set Variation Analysis) algorithm in Python to get specific insights
 
 # Background:
 
@@ -19,8 +20,9 @@ Principal component analysis (PCA) is a statistical procedure that can be used f
  
  Analysis is a popular framework for condensing information from gene expression profiles into a pathway or signature summary.
 
-# Tools Used:
-R statistical tool.
+# Tools and packages  Used:
+   Jupyter notebook (anaconda platform)
+   Cmappy , Scikitlearn - Pca , GSVA in python 
 
 ## Data Description 
 
@@ -88,7 +90,7 @@ Interferons (IFNs) are a group of signaling proteins made and released by host c
  colour of heatmap observed : near 9 to 12 and 
  The blue region with less frequency values : near 4 to 5
 
-Some extras to look at the high dimensional data
+                               Some extras to look at the high dimensional data
 
 from GSVA import gsva, gmt_to_dataframe                              
 from plotnine import *
@@ -111,6 +113,7 @@ name	description	member
 expression_df = pd.read_csv('ifn1.csv',index_col=0)
 expression_df.iloc[0:5,0:5]
 aab1-Primary solid Tumor	aab4-Primary solid Tumor	aab6-Primary solid Tumor	aab8-Primary solid Tumor	aab9-Primary solid Tumor
+
 rid					
 SLC35E2	7.45	8.1	7.2	8.0	7.65
 A1BG	6.40	5.8	6.4	5.8	6.70
