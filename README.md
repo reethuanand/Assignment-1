@@ -32,7 +32,7 @@ Principal component analysis (PCA) is a statistical procedure that can be used f
    Once after the stage of data cleaning check the distribution of gene expression across samples
    These 14098 rows represent Gene ID, and 183 columns represent 183 different samples.
    
-# Phantasus tool Visualization has been used as open source online tool (Heat Map).
+# Phantasus tool Visualization -> open source online tool (Heat Map).
 
 ![data_gene](https://github.com/reethuanand/Assignment-1-/blob/main/Capture-3.PNG)
 
@@ -90,8 +90,10 @@ Interferons (IFNs) are a group of signaling proteins made and released by host c
  colour of heatmap observed : near 9 to 12 and 
  The blue region with less frequency values : near 4 to 5
 
-                               Some extras to look at the high dimensional data
-
+                              
+                              Some extras to look at the high dimensional data Gene set analysis 
+ 
+ 
 from GSVA import gsva, gmt_to_dataframe                              
 from plotnine import *
 from sklearn.manifold import TSNE
