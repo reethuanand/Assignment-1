@@ -7,7 +7,7 @@ use of GSVA (Gene Set Variation Analysis) algorithm in Python to get specific in
 # Background:
 
 A large number of computational methods have been recently developed for analyzing the differential 	gene expression (DE) in RNA-Seq data. 
-This exercise uses  CmapR tool for data analysis.Pancreatic Adenocarcinoma (PAAD) is the third most common cause of death from cancer, with an overall 5-year survival rate of less than 5% .RNA-Seq (RNA sequencing), is a sequencing technique to detect the quantity of RNA in a biological sample at a given moment. Here we have a dataset of normalized RNA Sequencing reads for pancreatic cancer tumors​ . The measurement consists of ~20,000 genes for 185 pancreatic cancer tumors. The file format is ​ GCT , a tab-delimited file used for sharing gene expression data and metadata for samples.
+This exercise uses  Cmapy tool for data analysis.Pancreatic Adenocarcinoma (PAAD) is the third most common cause of death from cancer, with an overall 5-year survival rate of less than 5% .RNA-Seq (RNA sequencing), is a sequencing technique to detect the quantity of RNA in a biological sample at a given moment. Here we have a dataset of normalized RNA Sequencing reads for pancreatic cancer tumors​ . The measurement consists of ~20,000 genes for 185 pancreatic cancer tumors. The file format is ​ GCT , a tab-delimited file used for sharing gene expression data and metadata for samples.
 
 
 ## Data set: The measurement consists of ~20,000 genes for 185 pancreatic cancer tumors
